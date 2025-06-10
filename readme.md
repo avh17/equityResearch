@@ -12,18 +12,3 @@ RockyBot is an AI-powered news research tool that allows you to extract informat
 * **Source Attribution:** Provides the URLs of the articles used to generate the answers, enhancing trustworthiness.
 * **Interactive Streamlit UI:** A user-friendly web interface for seamless interaction.
 
-## Getting Started
-
-Follow these steps to set up and run RockyBot on your local machine.
-
-### Prerequisites
-
-* Python 3.9+
-* `pip` (Python package installer)
-
-### 1. Clone the Repository (or create project files)
-
-If you have this as a repository:
-```bash
-git clone <your-repo-url>
-cd rockybot
