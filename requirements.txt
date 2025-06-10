@@ -1,31 +1,12 @@
-# requirements.txt
-
-# Streamlit for the web application UI
-streamlit==1.33.0
-
-# LangChain core libraries
-langchain==0.1.19
-langchain-core==0.1.52
-langchain-community==0.0.38
-
-# Google Generative AI integration for LangChain
-# Using a recent, compatible version for langchain-google-genai
-langchain-google-genai==2.1.5 # Updated to a higher, existing version
-google-generativeai==0.5.10 # The underlying Google client library
-
-# Document Loaders (for URLs)
-unstructured==0.12.6
-# Optional: Include these if you encounter parsing issues with URLs
-# html2text==2024.2.26
-# lxml==5.1.0
-# beautifulsoup4==4.12.3
-
-# Vector Store (FAISS)
-faiss-cpu==1.7.4 # For CPU-only FAISS. Use faiss-gpu for GPU.
-
-# Environment variable management
-python-dotenv==1.0.1
-
-# General utilities (often dependencies of other libraries)
-tenacity==8.2.3
-pydantic==2.7.1
+langchain==0.1.14
+langchain_community==0.0.30
+langchain_google_genai==0.0.5
+google-generativeai==0.3.1
+streamlit==1.45.1
+pydantic>=2.5
+python-dotenv>=1.0.0
+aiohttp<4.0.0
+PyYAML>=5.3
+sqlalchemy<3,>=1.4
+dataclasses-json<0.7,>=0.5.7
+jsonpatch>=1.33
