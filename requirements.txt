@@ -10,3 +10,4 @@ PyYAML>=5.3
 sqlalchemy<3,>=1.4
 dataclasses-json<0.7,>=0.5.7
 jsonpatch>=1.33
+unstructured
